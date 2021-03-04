@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+ <meta charset="UTF-8">
+ <title>original2</title>
+ <link rel="stylesheet" href="style.css" type="text/css" media="screen" >
+</head>
+
+<body>
+
+<div id="wrapper">
+<!--ヘッダー-->
+<header>
+  <h1>
+   見出し何か入れる<br>
+   <span>タイトル考える</span>
+  </h1>
+<nav>
+<ul>
+  <li><a href="./index.html">トップページ</a></li>
+  <li><a href="./menu.html">メニュー</a></li>
+  <li><a href="./contact.html">予約・問い合わせ</a></li>
+</ul>
+</nav>
+
+<div class="clear"></div>
+
+<p id="nav_tel">
+<img src="images/tel_nav.jp" alt="電話予約はこちら 012-345-6789" >
+</p>
+
+</header>
+<!--ヘッダー-->
+
+<!--見出し-->
+<h2 id="heading" class="box-shadow">
+  予約・問い合わせ
+</h2>
+<!--見出し-->
+
+<!--左-->
+<div id="left" class="box-shadow">
+   <h3>予約・問い合わせフォーム</h3>
+  <p id="contact_text">
+    下記問い合わせフォームより問い合わせ下さい。<br>
+    （内容考える）
+  </p>
+  <form>
+    <table>
+      <tr>
+        <td class="form_title">
+          <label for="form_name">お名前</label>
+        </td>
+        <td class="form_contents">
+          <input type="text" id="form_name">
+        </td>
+      </tr>
+      <tr>
+        <td class="form_title">
+          <label for="form_tel">電話番号</label>
+        </td>
+        <td class="form_contents">
+          <input type="text" id="form_tel">
+        </td>
+      </tr>
+      <tr>
+        <td class="form_title">
+          <label for="form_time">希望日時</label>
+        </td>
+        <td class="form_contents">
+          <input type="text" class="form_time">年
+          <input type="text" class="form_time">月
+          <input type="text" class="form_time">日
+          <input type="text" class="form_time">時から
+          <input type="text" class="form_time">時まで
+        </td>
+      </tr>
+      <tr>
+        <td class="form_title">
+          <label for="form_menu">希望メニュー</label>
+        </td>
+        <td class="form_contents">
+          <input type="checkbox" id="menu_shoyu" value="醤油ベース">
+           <label for="menu_shoyu">醤油ベース</label>
+
+          <input type="checkbox" id="menu_miso" value="味噌ベース">
+           <label for="menu_miso">味噌ベース</label>
+
+          <input type="checkbox" id="menu_tsuke" value="つけ麺">
+           <label for="menu_tsuke">つけ麺</label>
+        </td>
+      </tr>
+      <tr>
+        <td class="form_title">
+          <label for="form_name">お客様要望欄</label>
+        </td>
+        <td class="form_contents">
+           <textarea id="form_textarea"></textarea>
+        </td>
+      </tr>
+    </table>
+       <p id="submit">
+         <input type="submit" value="送信する">
+       </p>
+  </form>
+</div>
+<!--左-->
+
+<!--右-->
+<div id="right">
+  <ul>
+    <li class="box-shadow"><a id="contact" href="./index.html">トップページ</a></li>
+    <li class="box-shadow"><a id="blog" href="./menu.html">メニュー一覧</a></li>
+  </ul>
+</div>
+<!--右-->
+
+<div class="clear"></div>
+
+</div> <!--#//wrapper-->
+
+<!--フッター-->
+<footer>
+  <p>K.I(C)</p>
+</footer>
+<!--フッター-->
+</body>
+
+</html>
+
